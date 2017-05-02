@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aec_developers.khurshid.aec_main.RegisterLoginPackage.PreLoginActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter RollNo eg. CSE/13/367"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/etEnterRollNoXml"
+        />
+
+    <Spinner
+        android:id="@+id/spCourseSelection"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spSemesterSelection"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <Button
+        android:id="@+id/btnNextRollNoXml"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Next"
+        android:onClick="ActionPreLogin"
+        />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="Information Here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRollNoDetailsXml"
+        />
+
+</LinearLayout>
